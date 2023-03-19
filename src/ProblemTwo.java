@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.Comparator;
-
 // Oliver Sigwarth
 // Problem 2: Find The First Non-Repeated Character
 // Exercise from "Java Coding Problems" by Anghel Leonard
@@ -9,6 +6,8 @@ import java.util.Comparator;
 // ------------------------------------------------------------------------------
 //                                  Objective
 // Write a program that returns the first non-repeated character from a given string.
+import java.util.ArrayList;
+import java.util.Comparator;
 public class ProblemTwo {
     public static char firstNonRepeatedChar(String phrase) {
         ArrayList<Character> firstNonRepeatedChar = new ArrayList<>();
