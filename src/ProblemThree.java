@@ -141,11 +141,11 @@ public class ProblemThree {
         return fullPhraseWPeriodsCommasSix.toString();
     }
     public static void main(String[] args) {
-        System.out.println(reverseLetters("David is the [best] {husband} (ever). I love him so much. " +
-                                                "He loves me and accepts me, and that's all that matters."));
+        String phrase = "David is the [best] {husband} (ever). I love him so much. " +
+                "He loves me and accepts me, and that's all that matters.";
+        System.out.println(reverseLetters(phrase));
         System.out.println("------------------------------------------------------------" +
                            "------------------------------------------------------------");
-        System.out.println(reverseLettersAndWords("David is the [best] {husband} (ever). I love him so much." +
-                                                        " He loves me and accepts me, and that's all that matters."));
+        System.out.println(reverseLettersAndWords(phrase));
     }
 }
