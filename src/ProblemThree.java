@@ -1,13 +1,13 @@
-import java.util.*;
 // Oliver Sigwarth
 // Problem 3: Reversing Letters and Words
 // Exercise from "Java Coding Problems" by Anghel Leonard
 // Created: 3/18/2023
-// Modified: 3/19/2023
+// Modified: 4/12/2023
 // ------------------------------------------------------------------------------
 //                                  Objective
 // Write a program that reverses the letters of each word and a program that
 // reverses the letters of each word and the words themselves.
+import java.util.*;
 public class ProblemThree {
     public static String reverseLettersAndWords(String phrase) {
         String returnPhrase = "";
