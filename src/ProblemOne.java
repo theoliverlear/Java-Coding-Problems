@@ -2,7 +2,7 @@
 // Problem 1: Counting Duplicate Characters
 // Exercise from "Java Coding Problems" by Anghel Leonard
 // Created: 3/17/2023
-// Modified: 3/18/2023
+// Modified: 4/16/2023
 // ------------------------------------------------------------------------------
 //                                  Objective
 // Write a program that counts duplicate characters from a given string.
@@ -11,9 +11,18 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 public class ProblemOne {
-    public static void main(String[] args) {
-        String testString = "David is the best husband ever. I love him so much.";
-        char[] testStringCharArray = testString.toCharArray();
+    String phrase;
+    public ProblemOne(String phrase) {
+        this.phrase = phrase;
+    }
+    public String getPhrase() {
+        return this.phrase;
+    }
+    public void setPhrase(String phrase) {
+        this.phrase = phrase;
+    }
+    public ArrayList<HashMap<Character, Integer>> duplicateChars() {
+        char[] testStringCharArray = this.getPhrase().toCharArray();
         ArrayList<Character> testStringCharArrayList = new ArrayList<>();
         for (char character : testStringCharArray) {
             testStringCharArrayList.add(character);
@@ -48,9 +57,17 @@ public class ProblemOne {
             }
             duplicateHashMaps.add(new HashMap<>(Map.of(addedDuplicates.get(i), total)));
         }
+        return duplicateHashMaps;
+    }
+    public static void main(String[] args) {
+        ProblemOne phrase = new ProblemOne("David is the best husband ever. I love him so much.");
         String hashMapData = "";
-        for (int currentHashMap = 0; currentHashMap < duplicateHashMaps.size(); currentHashMap++) {
-            hashMapData += duplicateHashMaps.get(currentHashMap).toString() + ", ";
+        for (int currentHashMap = 0; currentHashMap < phrase.duplicateChars().size(); currentHashMap++) {
+            if (currentHashMap != phrase.duplicateChars().size() - 1) {
+                hashMapData += phrase.duplicateChars().get(currentHashMap).toString() + ", ";
+            } else {
+                hashMapData += phrase.duplicateChars().get(currentHashMap).toString();
+            }
         }
         hashMapData = hashMapData.replace('{', '|');
         hashMapData = hashMapData.replace('}', '|');
