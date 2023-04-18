@@ -1,5 +1,5 @@
 // Oliver Sigwarth
-// Problem 14: Finding the character with the most appearances
+// Problem 14: Finding the Character with the Most Appearances
 // Exercise from "Java Coding Problems" by Anghel Leonard
 // Created: 4/16/2023
 // Modified: 4/17/2023
