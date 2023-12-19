@@ -3,8 +3,8 @@
 // Exercise from "Java Coding Problems" by Anghel Leonard
 // Created: 4/17/2023
 // Modified: 4/17/2023
-// ------------------------------------------------------------------------------
-//                                  Objective
+// ---------------------------------------------------------------------------
+//                                Objective
 // Write a program that sorts by the length of the given array of strings.
 import java.util.ArrayList;
 import java.util.Comparator;

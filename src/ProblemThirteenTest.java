@@ -3,8 +3,8 @@
 // Exercise from "Java Coding Problems" by Anghel Leonard
 // Created: 4/12/2023
 // Modified: 4/12/2023
-// ------------------------------------------------------------------------------
-//                                  Objective
+// ---------------------------------------------------------------------------
+//                                Objective
 // Write a program that removes the given character from a string.
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;

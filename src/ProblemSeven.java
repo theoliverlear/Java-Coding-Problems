@@ -3,10 +3,10 @@
 // Exercise from "Java Coding Problems" by Anghel Leonard
 // Created: 3/22/2023
 // Modified: 3/22/2023
-// ------------------------------------------------------------------------------
-//                                  Objective
-// Write a program that converts the given String object (representing a number)
-// into int, long, float, or double.
+// ---------------------------------------------------------------------------
+//                                Objective
+// Write a program that converts the given String object (representing a
+// number) into int, long, float, or double.
 import java.util.Scanner;
 public class ProblemSeven {
     static int phraseInt = 0;

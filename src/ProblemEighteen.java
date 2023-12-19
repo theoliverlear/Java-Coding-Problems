@@ -3,8 +3,8 @@
 // Exercise from "Java Coding Problems" by Anghel Leonard
 // Created: 4/17/2023
 // Modified: 4/18/2023
-// ------------------------------------------------------------------------------
-//                                  Objective
+// ---------------------------------------------------------------------------
+//                                Objective
 // Write a program that checks whether two strings are anagrams. Ignore
 // capitalization and whitespace.
 import java.util.ArrayList;

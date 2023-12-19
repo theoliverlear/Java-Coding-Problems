@@ -3,8 +3,8 @@
 // Exercise from "Java Coding Problems" by Anghel Leonard
 // Created: 4/11/2023
 // Modified: 4/11/2023
-// ------------------------------------------------------------------------------
-//                                  Objective
+// ---------------------------------------------------------------------------
+//                                Objective
 // Write a program that determines whether the given string is a palindrome
 // or not.
 import org.junit.Test;

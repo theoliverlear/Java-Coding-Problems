@@ -3,8 +3,8 @@
 // Exercise from "Java Coding Problems" by Anghel Leonard
 // Created: 3/17/2023
 // Modified: 4/16/2023
-// ------------------------------------------------------------------------------
-//                                  Objective
+// ---------------------------------------------------------------------------
+//                                Objective
 // Write a program that counts duplicate characters from a given string.
 import java.util.ArrayList;
 import java.util.Comparator;

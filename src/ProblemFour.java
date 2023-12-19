@@ -3,8 +3,8 @@
 // Exercise from "Java Coding Problems" by Anghel Leonard
 // Created: 3/19/2023
 // Modified: 3/19/2023
-// ------------------------------------------------------------------------------
-//                                  Objective
+// ---------------------------------------------------------------------------
+//                                Objective
 // Write a program that checks whether the given string is only digits.
 public class ProblemFour {
     public static void main(String[] args) {
@@ -21,6 +21,7 @@ public class ProblemFour {
                 break;
             }
         }
-        System.out.println("The string \"" + phrase + "\" contains only digits: " + onlyDigits);
+        System.out.println("The string \"" + phrase + "\" contains only" +
+                           " digits: " + onlyDigits);
     }
 }

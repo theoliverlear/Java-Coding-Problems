@@ -3,8 +3,8 @@
 // Exercise from "Java Coding Problems" by Anghel Leonard
 // Created: 4/12/2023
 // Modified: 4/12/2023
-// ------------------------------------------------------------------------------
-//                                  Objective
+// ---------------------------------------------------------------------------
+//                                Objective
 // Write a program that removes the given character from a string.
 import java.util.ArrayList;
 public class ProblemThirteen {
@@ -41,7 +41,8 @@ public class ProblemThirteen {
         this.setPhrase(updatedPhraseString);
     }
     public static void main(String[] args) {
-        ProblemThirteen phrase = new ProblemThirteen("David is the best husband ever. I love him so much.", 'e');
+        String phraseString = "David is the best husband ever. I love him so much.";
+        ProblemThirteen phrase = new ProblemThirteen(phraseString, 'e');
         phrase.removeChar();
         System.out.println(phrase.getPhrase());
     }

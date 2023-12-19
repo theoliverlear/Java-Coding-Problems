@@ -3,8 +3,8 @@
 // Exercise from "Java Coding Problems" by Anghel Leonard
 // Created: 3/24/2023
 // Modified: 4/11/2023
-// ------------------------------------------------------------------------------
-//                                  Objective
+// ---------------------------------------------------------------------------
+//                                Objective
 // Write a program that generates all the permutations of a given string.
 public class ProblemTen {
     public static void startPermute(String phrase) {

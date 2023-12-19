@@ -3,8 +3,8 @@
 // Exercise from "Java Coding Problems" by Anghel Leonard
 // Created: 3/24/2023
 // Modified: 3/24/2023
-// ------------------------------------------------------------------------------
-//                                  Objective
+// ---------------------------------------------------------------------------
+//                                Objective
 // Write a program that joins the given strings by the given delimiter.
 public class ProblemNine {
     public static void main(String[] args) {

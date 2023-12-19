@@ -3,7 +3,7 @@
 // Exercise from "Java Coding Problems" by Anghel Leonard
 // Created: 3/17/2023
 // Modified: 3/17/2023
-// ------------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
 //                                  Objective
 // Write a program that returns the first non-repeated character from a given string.
 import java.util.ArrayList;

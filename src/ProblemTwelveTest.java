@@ -3,8 +3,8 @@
 // Exercise from "Java Coding Problems" by Anghel Leonard
 // Created: 4/12/2023
 // Modified: 4/16/2023
-// ------------------------------------------------------------------------------
-//                                  Objective
+// ---------------------------------------------------------------------------
+//                                Objective
 // Write a program that removes the duplicate character from the string.
 import org.junit.Test;
 import static org.hamcrest.core.IsEqual.equalTo;

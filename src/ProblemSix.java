@@ -3,9 +3,10 @@
 // Exercise from "Java Coding Problems" by Anghel Leonard
 // Created: 3/20/2023
 // Modified: 3/20/2023
-// ------------------------------------------------------------------------------
-//                                  Objective
-// Write a program that counts the occurrences of a certain character in a given string.
+// ---------------------------------------------------------------------------
+//                                Objective
+// Write a program that counts the occurrences of a certain character in a
+// given string.
 
 import java.util.ArrayList;
 

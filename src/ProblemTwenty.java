@@ -3,8 +3,8 @@
 // Exercise from "Java Coding Problems" by Anghel Leonard
 // Created: 5/29/2023
 // Modified: 5/29/2023
-// ------------------------------------------------------------------------------
-//                                  Objective
+// ---------------------------------------------------------------------------
+//                                 Objective
 // Write a program that concatenates the same string a given number of times.
 public class ProblemTwenty {
     String phrase = "";

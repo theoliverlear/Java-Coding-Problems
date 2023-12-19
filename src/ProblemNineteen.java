@@ -3,8 +3,8 @@
 // Exercise from "Java Coding Problems" by Anghel Leonard
 // Created: 4/18/2023
 // Modified: 4/21/2023
-// ------------------------------------------------------------------------------
-//                                  Objective
+// ---------------------------------------------------------------------------
+//                                Objective
 // Write a program that declares multiline strings or text blocks.
 public class ProblemNineteen {
 String phrase;
@@ -28,7 +28,8 @@ public void toMultiline() {
     this.setPhraseMultiline(phrase.replaceAll("\\.", ".\n"));
 }
     public static void main(String[] args) {
-        ProblemNineteen problemNineteen = new ProblemNineteen("David is the best husband ever. I love him so much.");
+        String phrase = "David is the best husband ever. I love him so much.";
+        ProblemNineteen problemNineteen = new ProblemNineteen(phrase);
         problemNineteen.toMultiline();
         System.out.println(problemNineteen.getPhraseMultiline());
     }

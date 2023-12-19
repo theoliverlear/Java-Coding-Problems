@@ -3,10 +3,10 @@
 // Exercise from "Java Coding Problems" by Anghel Leonard
 // Created: 3/20/2023
 // Modified: 3/20/2023
-// ------------------------------------------------------------------------------
-//                                  Objective
-// Write a program that counts the number of vowels and consonants in a given string.
-// Do this for the English language which has five vowels.
+// ---------------------------------------------------------------------------
+//                                Objective
+// Write a program that counts the number of vowels and consonants in a given
+// string. Do this for the English language which has five vowels.
 public class ProblemFive {
     public static void main(String[] args) {
         String phrase = "David is the best husband ever. I love him so much.";

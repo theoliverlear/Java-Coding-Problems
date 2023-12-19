@@ -3,8 +3,8 @@
 // Exercise from "Java Coding Problems" by Anghel Leonard
 // Created: 4/17/2023
 // Modified: 4/17/2023
-// ------------------------------------------------------------------------------
-//                                  Objective
+// ---------------------------------------------------------------------------
+//                                Objective
 // Write a program that counts the occurrences of a given string in another string.
 public class ProblemSeventeen {
     public static int substringCount(String phrase, String substring) {
